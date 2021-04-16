@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(145, 145, 145, 0.534);
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.navbar .navbar_ul{
+  list-style: none;
+}
+
+.navbar .navbar_ul li{
+  display: inline-block;
+  margin: 10px;
+}
+.navbar .navbar_ul li a{
+  text-decoration: none;
+  color: black;
+}
+.navbar .navbar_ul li a:hover{
+  color: crimson;
+}
+.navbar .navbar_ul li a.active{
+  color: crimson;
+}
+.block{
+  min-height:  1200px;
+  width: 100%;
+  margin: 20px auto;
+  color: #000;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+
+
+}
+.select{
+  border: 1px solid #ccc;
+}
+
+.block .pic{
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.block .pic .pig{
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+.block .pic .pig .fa{
+  position: absolute;
+  color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+}
+
+.block .pic .pig .fa-chevron-right{
+  right: 0;
+}
+.block .pic .pig .fa-chevron-left{
+  left: 0;
+}
+.block .pic .pig img{
+  width: 100%;
+  height: 100%;
+
+}
+.block .pic .row{
+  display: flex;
+  flex-direction: row;
+}
+.block .pic .row .small img{
+  width: 32%;
+  height: 100%;
+}
+
+.btn{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 50px;
+  display: none;
+}
+
+.react{
+  width: 340px;
+  height: 40px;
+  margin-top: 30px;
+  padding: 2rem 5rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.4rem;
+  background-color: rgba(17, 17, 17, 0.334);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.react span:first-child{
+position: absolute;
+left: 0;
+top: 0;
+width: 0%;
+height: 0%;
+background: #00f;
+}
+.react span:nth-child(2){
+position: absolute;
+left: 0;
+top: 0;
+width: 0%;
+height: 0%;
+background: #0ff;
+}
+.react span:nth-child(3){
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0%;
+height: 0%;
+background: #f0f;
+}
+.react span:nth-child(4){
+position: absolute;
+right:  0;
+bottom: 0;
+
+width: 0%;
+height: 10%;
+background: #000;
+}
+
+.color{
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top:100px;
+  background-color: #000;
+
+}
+.color ul{
+  list-style: none;
+}
+.color ul li{
+  display: inline-block;
+  color: white;
+  margin-left: 20px;
+
+}
+.color ul  [data-color="red"]{
+  background-color: red;
+  width: 40px;
+  height: 40px;
+}
+.color ul  [data-color="green"]{
+  background-color: green;
+  width: 40px;
+  height: 40px;
+}
+
+/*** start color style***/
+[data-body="red"] .skin-color{
+  color:red;
+  background-color: white
+}
+[data-body="red"] .skin-background-color{
+  color:#fff;
+  background-color: red
+}
+
+
+[data-body="green"] .skin-color{
+  color:green;
+  background-color: white
+}
+[data-body="green"] .skin-background-color{
+  color:#fff;
+  background-color: green
+}
+
+/*** end color style***/
+
+
+.forms{
+width: 800px;
+height: 800px;
+margin: 0 auto;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.forms form{
+width: 500px;
+height: 100%;
+text-align:center;
+}
+.forms form input{
+
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+}
+.forms form input[type="text"]{
+  padding: 10px;
+}
+
+.forms form div span{
+  display: none;
+}

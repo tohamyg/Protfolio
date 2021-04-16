@@ -1,0 +1,104 @@
+/****************start with Gloubal rules***********************/
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+.container{
+width: 1170px ;
+margin: auto ;
+
+
+}
+/****************start with header***********************/
+
+.slider{
+height: 400px;
+width:100%;
+
+}
+
+
+
+/****************start with navbar***********************/
+.navbar{
+  overflow: hidden;
+  background-color: #252f31;
+  color: #fff;
+}
+
+.navbar .brand{
+
+
+float: left;
+
+}
+.navbar h2.brand  span{
+  color:#2ecc71
+}
+
+
+.navbar .links{
+
+  float: right;
+  list-style: none;
+overflow: hidden;
+padding-left: 0;
+
+}
+
+
+.navbar .links  li{
+
+      float: left;
+      padding: 10px;
+
+}
+/******************** end navbar*************/
+
+/*****************start with features*******************/
+
+.features{
+  overflow: hidden;
+
+}
+.features .feat{
+  float: left;
+  width: 33.3%;
+
+}
+
+
+/*****************end with features*******************/
+
+
+
+
+
+/*************** start with About_me*********************/
+
+.About_me{
+overflow: hidden;
+
+}
+.About_me .image{
+  float: left;
+  width: 30.33%;
+}
+
+.About_me .info{
+
+float: right;
+width: 66.6%;
+
+}
+
+
+
+
+
+
+
+/***************** End with About_me ************************/

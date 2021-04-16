@@ -1,0 +1,208 @@
+.progress{
+width: 300px;
+height: 30px;
+background-color: #ccc;
+position: relative;
+border: 1px solid #ddd;
+border-radius: 5px;
+overflow: hidden;
+margin-top: 50px;
+
+}
+.progress span{
+position: absolute;
+width: 0%;
+height: 100%;
+display: block;
+background-color: #f00;
+color:#fff;
+text-align: right;
+padding: 6px;
+
+}
+
+.fixed-menu{
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color: #000;
+  top:0;
+  /*transition: all 1s ease-in-out;*/
+  left: -200px;
+
+
+
+}
+
+.fixed-menu .changeColor{
+list-style: none;
+position: absolute;
+
+}
+.fixed-menu .changeColor li{
+width: 30px;
+height: 30px;
+display: inline-block;
+
+}
+/************************/
+
+[data-default-color="red"] .skin-color{
+color: red
+}
+[data-default-color="red"] .skin-background-color{
+  background-color: red;
+  color: #fff;
+}
+
+
+[data-default-color="green"] .skin-color{
+color: green
+}
+[data-default-color="green"] .skin-background-color{
+background-color: green;
+color: #fff;
+}
+
+
+
+[data-default-color="blue"] .skin-color{
+color: blue
+}
+[data-default-color="blue"] .skin-background-color{
+background-color: blue;
+color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ [data-color="red"]{
+background-color: red
+}
+
+ [data-color="green"]{
+background-color: green
+
+}
+ [data-color="blue"]{
+background-color: blue
+
+}
+
+/*****************************/
+ .fixed-menu .fa-envelope-open-o{
+position: absolute;
+left: 200px;
+color: red;
+background: black;
+top: 200px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/************************/
+
+
+/*Start with form*/
+  form{
+  margin: 100px auto;
+  border: 2px solid rgb(238 238 238 / 0.5);
+  padding: 40px 40px;
+  width: 755px;
+  background: rgb(20 21 13 / 0.1);
+      }
+
+form input{
+  display: inline-block;
+width: 600.5px;
+height: 20px;
+/* background: #fff; */
+outline: none;
+/* border: 1px solid #ccc; */
+/* border-radius: 6px; */
+border: none;
+background: none;
+border-bottom: 1px solid #fff;
+margin-bottom: 18px
+}
+form textarea{
+  display: block;
+  width: 655.5px;
+  background: #fff;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+form div{
+  position: relative;
+}
+form div span{
+  display: inline-block;
+    border: 1px solid #d0c7c7;
+    padding: 5px 3p
+}
+form div span.astric{
+  display: inline-block;
+  position: absolute;
+}
+
+/*end  with form*/
+
+
+
+
+
+
+
+
+
+
+
+
+.cards{
+  position: relative;
+  z-index: 1
+
+}
+.cards .card{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  width: 130px;
+  height: 130px;
+  left: 50%;
+   margin: 30px 10px;
+
+}
+.cards .card-one{
+  background: #00f
+}
+.cards .card-two{
+  background: #f0f
+}.cards .card-three{
+  background: #0ff
+}
+.cards .card-four{
+  background: #000
+}

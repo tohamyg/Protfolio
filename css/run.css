@@ -1,0 +1,248 @@
+/*Start Global Rules*/
+        .container{
+        width:1200px;
+        margin: auto;
+        }
+
+        *{
+          box-sizing: border-box;
+        }
+        .clearfix{
+          clear: both;
+        }
+
+        .line{
+          position: relative;
+        }
+        .line::after{
+          content: "";
+          position: absolute;
+          display: block;
+          top: 26px;
+          left: 0;
+          width: 40px;
+          height: 0;
+          border: 1px solid #0b0101;
+        }
+    /*
+        hr{
+          width: 40px;
+
+    width: 40px;
+    background: #ccc;
+    position: relative;
+    left: -572px;
+top: 10px
+        }
+        */
+/*end Global Rules*/
+/* start with navbar*/
+        .navbar{
+          background: #ccc;
+          font-size: 20px;
+           height: 0;
+           color: #fff;
+           position: relative;
+           z-index: 6;
+        }
+        .navbar .brand{
+          width: 40%;
+          float: left;
+          font-weight: bold;
+        }
+        .navbar .links{
+          width: 60%;
+          float: left;
+
+        }
+        .navbar ul.links{
+        list-style: none;
+        }
+        .navbar ul.links li{
+         display: inline-block;
+        margin-left: 20px;
+        border-bottom: 1px solid Transport;
+        cursor: pointer;
+        }
+          .navbar ul.links li a{
+            color: #fff;
+            text-decoration: none;
+          }
+        .navbar ul.links li.active a,.navbar ul.links li a:hover{
+          color:#1abc9c;
+          border-bottom: 1px solid #1abc9c;
+
+        }
+  .navbar ul.links li a{
+      color: #fff;
+    }
+
+    @media( max-width:767px ){
+.navbar{
+  display: none;
+}
+.header{
+  display: none;
+}
+
+    }
+/* end with navbar*/
+
+
+/*start with header*/
+
+  .header{
+    background-image: url('../images/ww1 (1).jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+  }
+
+
+.header .overlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+/*end with header*/
+
+
+
+/*start with services*/
+.services{
+margin: 20px 40px 80px;
+}
+.item{
+  width:33.333%;
+  float: left;
+  overflow: hidden;
+}
+.item i{
+  width: 20%;
+  float: left;
+  font-size: 70px;
+color: #1bab83;
+
+}
+.item .info{
+  width: 75%;
+  margin-right: 5%;
+  float: left;
+  position: relative;
+      bottom: 19px;
+}
+/* end with service*/
+/* start with ourteam*/
+
+.ourTeam .box{
+  width: 30%;
+  float:left;
+}
+
+.ourTeam .img{
+  width: 16%;
+  float: left;
+  text-align: right;
+  margin-left: 1.5%;
+}
+}
+.ourTeam .img img{
+  width:100%;
+  height: 100%;
+}
+
+
+/* end with ourteam*/
+
+/*start With testmonial*/
+.testmonial{
+margin-top: 100px;
+background: url("../images/test.jpg");
+background-size: cover;
+height: 350px;
+position: relative;
+text-align: center;
+color: #fff;
+padding: 100px;
+}
+.testmonial .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.testmonial .overlay h2{
+margin-top: 90px;
+
+}
+.testmonial .overlay q{
+display: block;
+margin-top: 50px;
+line-height: 2;
+color: #868080;
+}
+.testmonial .overlay span{
+  display: block;
+  color:#1bab83;
+font-size: 30px;
+font-weight: bold;
+}
+
+.testmonial .slider > div{
+  display: none;
+}
+.testmonial .slider .active{
+  display: block;
+}
+
+
+/*end With testmonial*/
+
+
+
+.btn{
+  width: 200px;
+background-color: crimson;
+height: 50px;
+position: relative;
+border-radius: 20px;
+color: #fff;
+overflow: hidden;
+}
+
+.btn.btn-effect span:first-child{
+
+position: absolute;
+
+background-color: #0f0;
+
+top: 0;
+
+right:  50%;
+
+left:  50%;
+
+width: 0;
+
+height: 100%;
+
+display: block;
+
+z-index: 3
+
+}
+
+.btn.btn-effect span:last-child{
+position: relative;
+z-index: 6
+
+}

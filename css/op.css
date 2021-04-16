@@ -1,0 +1,321 @@
+:root{
+--name:rgba(3,3,3,0.6);
+--namee:#ccc;
+--color:#fff;
+--red:#f00;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*************start gloubal rules*****************/
+.ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+text-align: center;
+background-color: var(--name);
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+}
+.clearfix{
+  clear: both;
+
+}
+
+ .ul li{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ul li a{
+  text-decoration: none;
+  color: var(--color);
+}
+
+
+
+.block{
+width: 100%;
+text-align: center;
+font-weight: bold;
+font-size: 32px;
+padding: 60px 0px;
+}
+
+/*************start*****gallery***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery{width: 800px; margin: 50px auto;}
+.gallery .majour img{max-width: 100%;}
+.gallery .sub-gallery img{  width: 19%;  opacity: 0.5;}
+.gallery .sub-gallery img.selected{border: 2px solid #f00; opacity: 1;  transition: all 0.6s ease-in-out;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************end*****glarry*************/
+
+ul li a.active{
+  color: var(--red);
+}
+.scroll-to-top{
+  background-color: #000;
+  padding: 10px;
+  width: 20px;
+  color: #fff;
+  position: fixed;
+  bottom: 25px;
+  left: 866px;
+  height: 30px;
+  display: none;
+}
+
+
+
+/*********************button effect*****************/
+
+.button-effect{
+width: 150px;
+height: 50px;
+text-align: center;
+background-color: #2774e3;;
+color: #fff;
+position: relative;
+margin-left: 100px;
+margin-bottom: 100px;
+border-radius: 10px;
+overflow: hidden;
+border: none;
+}
+
+.button-effect.from-left span:first-child{
+    background-color: #273c75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 0;
+
+
+
+}
+
+.button-effect.from-left span:last-child{
+  position: relative;
+  z-index: 9999;
+
+}
+
+
+
+
+
+/****************************start progress***********************/
+.progress{
+  width: 300px;
+  height: 40px;
+  background-color:#f5f6fa;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  position: relative;
+  margin: 30px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  color: #fff;
+line-height: 2;
+text-indent: 25px
+}
+
+.progress .span-red{
+height: 100%;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+background-color: #c23616
+}
+
+.progress .span-blue{
+
+height: 100%;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+background-color:#0097e6
+}
+
+.progress .span-night{
+
+height: 100%;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+background-color: #353b48
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed-menu{
+position: fixed;
+height: 100%;
+width: 170px;
+top: 0;
+left: -190px;
+background-color: #273c75;
+z-index: 99999;
+padding: 10px;
+}
+.fixed-menu .fas{
+  width: 30px;
+  height: 30px;
+  background-color:#273c75;
+  position: absolute;
+  border-radius: 0 10px 10px 0;
+right: -29px;
+top: 112px;
+}
+
+
+.fixed-menu  ul.colors{
+
+list-style: none;
+
+}
+.fixed-menu .colors li{
+
+  width: 27px;
+  height: 30px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed-menu .colors li[data-color="red"]{
+color: red;
+background: red
+}
+
+.fixed-menu .colors li[data-color="green"]{
+color: green;
+background: green;
+
+}
+
+.fixed-menu .colors li[data-color="blue"]{
+color: blue;
+background:blue;
+}
+
+.fixed-menu .colors li[data-color="purple"]{
+background: purple;
+color: purple;
+}
+
+
+
+
+
+////////////////////**********************************************///////////////////////
+[data-default-color="red"] .skin-color{
+color: #f00;
+}
+
+[data-default-color="red"] .skin-background{
+background-color: #f00;
+color: #fff;
+}
+[data-default-color="green"] .skin-color{
+color: green;
+}
+[data-default-color="green"] .skin-background{
+background-color: green;
+color: #fff;
+}
+[data-default-color="blue"] .skin-color{
+color: blue;
+}
+[data-default-color="blue"] .skin-background{
+background-color: blue;
+color: #fff;
+}
+[data-default-color="purple"] .skin-color{
+color: purple;
+}
+[data-default-color="purple"] .skin-background{
+background-color: purple;
+color: #fff;
+}
+///////////////*******************************************************////////////////////////////
+
+
+
+
+
+
+.tran ul{
+list-style: none;
+font-size: 50px;
+
+}
